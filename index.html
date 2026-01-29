@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snowflake Core Study Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Spectral:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">❄️</span>
+          <div>
+            <div class="brand-title">Snowflake Core Study Lab</div>
+            <div class="brand-sub">문제은행 · 학습 · 시험 모드</div>
+          </div>
+        </div>
+        <nav class="nav" id="nav">
+          <button class="nav-btn" data-view="dashboard">대시보드</button>
+          <button class="nav-btn" data-view="bank">문제은행</button>
+          <button class="nav-btn" data-view="study">학습 모드</button>
+          <button class="nav-btn" data-view="exam">시험 모드</button>
+          <button class="nav-btn" data-view="review">오답노트</button>
+          <button class="nav-btn" data-view="import">가져오기</button>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section class="view" id="view-dashboard">
+          <div class="section-header">
+            <h1>대시보드</h1>
+            <p>오늘의 학습 현황과 핵심 지표를 한눈에 확인합니다.</p>
+          </div>
+          <div class="grid" id="dashboard-content"></div>
+        </section>
+
+        <section class="view" id="view-bank">
+          <div class="section-header">
+            <h1>문제은행</h1>
+            <p>카테고리·태그·난이도로 문제를 빠르게 찾으세요.</p>
+          </div>
+          <div class="panel" id="bank-controls"></div>
+          <div class="list" id="bank-list"></div>
+        </section>
+
+        <section class="view" id="view-study">
+          <div class="section-header">
+            <h1>학습 모드</h1>
+            <p>문제별 즉시 채점과 해설 확인으로 집중 학습합니다.</p>
+          </div>
+          <div id="study-content"></div>
+        </section>
+
+        <section class="view" id="view-exam">
+          <div class="section-header">
+            <h1>시험 모드</h1>
+            <p>타이머 기반으로 실전과 동일한 환경을 구성합니다.</p>
+          </div>
+          <div id="exam-content"></div>
+        </section>
+
+        <section class="view" id="view-review">
+          <div class="section-header">
+            <h1>오답노트</h1>
+            <p>틀린 문제를 재학습하고 정답 키를 보정합니다.</p>
+          </div>
+          <div id="review-content"></div>
+        </section>
+
+        <section class="view" id="view-import">
+          <div class="section-header">
+            <h1>가져오기 & 내보내기</h1>
+            <p>PDF/JSON/CSV/텍스트를 문제 데이터로 변환합니다.</p>
+          </div>
+          <div id="import-content"></div>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <div class="modal" id="modal" aria-hidden="true">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h2 id="modal-title">정답 키 수정</h2>
+          <button class="icon-btn" id="modal-close" aria-label="닫기">✕</button>
+        </div>
+        <div class="modal-body" id="modal-body"></div>
+        <div class="modal-footer" id="modal-footer"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="questions-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

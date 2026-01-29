@@ -1,0 +1,4675 @@
+window.SNOWFLAKE_QUESTIONS = [
+  {
+    "id": "Q0001",
+    "category": "아키텍처 레이어",
+    "question": "Snowflake의 기본 클라우드 인프라와 관련하여 다음 중 사실인 진술은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Snowflake 데이터와 서비스는 클라우드 공급자 지역 내의 단일 가용성 영역에 배포됩니다."
+      },
+      {
+        "key": "B",
+        "text": "Snowflake 데이터와 서비스는 단일 클라우드 공급자와 단일 지역에서만 제공되며, 여러 클라우드 공급자를 사용하는 것은 지원되지 않습니다."
+      },
+      {
+        "key": "C",
+        "text": "Snowflake는 Snowflake 컴퓨팅 및 스토리지를 위해 고객의 자체 컴퓨팅 및 스토리지 리소스를 사용하여 고객의 프라이빗 클라우드에 배포될 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "Snowflake는 자체 컴퓨팅 및 스토리지를 위해 각 클라우드 공급자의 핵심 컴퓨팅 및 스토리지 서비스를 사용합니다."
+      },
+      {
+        "key": "E",
+        "text": "Snowflake 아키텍처의 세 가지 계층(저장소, 컴퓨팅 및 클라우드 서비스)은 모두 선택된 클라우드 플랫폼에 전적으로 배포되고 관리됩니다."
+      },
+      {
+        "key": "F",
+        "text": "Snowflake 데이터 및 서비스는 클라우드 공급자 지역 내의 최소 3개 가용성 영역에 배포됩니다."
+      }
+    ],
+    "correct": [
+      "D",
+      "E",
+      "F"
+    ],
+    "multiSelect": true,
+    "maxSelect": 3,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0002",
+    "category": "아키텍처 레이어",
+    "question": "다음 중 Snowflake의 아키텍처를 정확하게 설명하는 것은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "플랫폼의 모든 컴퓨팅 노드에 대한 로컬 데이터 저장소를 사용합니다."
+      },
+      {
+        "key": "B",
+        "text": "공유 디스크와 모든 것을 공유하는 데이터베이스 아키텍처의 혼합입니다."
+      },
+      {
+        "key": "C",
+        "text": "이는 기존 공유 디스크와 공유되지 않는 데이터베이스 아키텍처의 혼합입니다."
+      },
+      {
+        "key": "D",
+        "text": "로드된 데이터를 내부적으로 최적화, 압축, 행 기반 형식으로 재구성합니다."
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0003",
+    "category": "아키텍처 레이어",
+    "question": "Snowflake는 자사의 독특한 아키텍처를 어떻게 설명하나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "중앙 데이터 저장소와 대규모 병렬 처리(MPP)를 사용하는 단일 클러스터 공유 데이터 아키텍처"
+      },
+      {
+        "key": "B",
+        "text": "솔로 데이터 저장소와 대규모 병렬 처리(MPP)를 사용하는 다중 더스터 공유 없음 아키텍처"
+      },
+      {
+        "key": "C",
+        "text": "슬라이스 데이터 저장소와 대칭적 멀티프로세싱(SMP)을 사용하는 단일 클러스터 공유 없음 아키텍처"
+      },
+      {
+        "key": "D",
+        "text": "사일로형 데이터 저장소와 대칭적 멀티 프로세싱(SMP)을 사용하는 다중 클러스터 공유 없음 아키텍처"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0004",
+    "category": "아키텍처 레이어",
+    "question": "Snowflake 클라우드 데이터 플랫폼은 다음 중 어떤 아키텍처를 가지고 있다고 설명되어 있습니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "공유 디스크"
+      },
+      {
+        "key": "B",
+        "text": "공유되지 않음"
+      },
+      {
+        "key": "C",
+        "text": "멀티 클러스터 공유 데이터"
+      },
+      {
+        "key": "D",
+        "text": "서버리스 쿼리 엔진"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0005",
+    "category": "아키텍처 레이어",
+    "question": "다음 중 Snowflake가 관리하는 컴퓨팅 리소스 또는 기능은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "COPY 명령을 실행합니다."
+      },
+      {
+        "key": "B",
+        "text": "데이터 업데이트"
+      },
+      {
+        "key": "C",
+        "text": "스노우파이프"
+      },
+      {
+        "key": "D",
+        "text": "자동클러스터링"
+      },
+      {
+        "key": "E",
+        "text": "창고 확장"
+      }
+    ],
+    "correct": [
+      "C",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0006",
+    "category": "아키텍처 레이어",
+    "question": "Slowflake의 클라우드 서비스 계층에서 관리되는 활동은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "승인"
+      },
+      {
+        "key": "B",
+        "text": "액세스 위임"
+      },
+      {
+        "key": "C",
+        "text": "데이터 정리"
+      },
+      {
+        "key": "D",
+        "text": "데이터 압축"
+      },
+      {
+        "key": "E",
+        "text": "쿼리 구문 분석 및 최적화"
+      }
+    ],
+    "correct": [
+      "A",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0007",
+    "category": "아키텍처 레이어",
+    "question": "Snowflake에서 데이터 유출을 줄일 수 있는 단계는 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "더 큰 가상 창고 사용"
+      },
+      {
+        "key": "B",
+        "text": "가상 창고 최대 시간 초과 한도 증가"
+      },
+      {
+        "key": "C",
+        "text": "가상 창고의 원격 저장소 용량 증가"
+      },
+      {
+        "key": "D",
+        "text": "임시 테이블 대신 공통 테이블 표현식(CTE) 사용"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0008",
+    "category": "아키텍처 레이어",
+    "question": "작업에 사용되는 가상 창고의 크기를 어떻게 결정합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "루트 작업은 동시에(즉, 여러 인스턴스) 실행될 수 있으므로 실행 인스턴스가 누락되는 것을 방지하기 위해 실행 창에 약간의 여백을 두는 것이 좋습니다."
+      },
+      {
+        "key": "B",
+        "text": "스트림 콘텐츠 크기를 쿼리(선택)하면 웨어하우스 크기를 결정하는 데 도움이 됩니다. 예를 들어, 대용량 스트림 콘텐츠를 쿼리하는 경우 더 큰 웨어하우스 크기를 사용하세요."
+      },
+      {
+        "key": "C",
+        "text": "저장 프로시저를 사용하여 여러 SQL 문을 실행하는 경우 먼저 컴퓨팅 리소스 크기를 조정하기 위해 저장 프로시저를 별도로 테스트 실행하는 것이 가장 좋습니다."
+      },
+      {
+        "key": "D",
+        "text": "작업 인프라는 작업 본문을 일정에 따라 실행하는 것을 기반으로 하므로 작업 일정에 맞게 다중 클러스터 웨어하우스(MCW)를 사용하여 자동 동시성 처리를 위한 가상 웨어하우스를 구성하는 것이 좋습니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0009",
+    "category": "아키텍처 레이어",
+    "question": "SCALING_POLICY = ECONOMY 설정이 활성화된 자동 크기 조정 멀티 클러스터 가상 웨어하우스에서 다른 클러스터는 언제 시작됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "시스템에 2분 동안 충분한 부하가 있을 때"
+      },
+      {
+        "key": "B",
+        "text": "시스템에 6분 동안 충분한 부하가 있을 때"
+      },
+      {
+        "key": "C",
+        "text": "시스템에 8분 동안 충분한 부하가 있을 때"
+      },
+      {
+        "key": "D",
+        "text": "시스템에 10분 정도 부하가 걸릴 때"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0010",
+    "category": "아키텍처 레이어",
+    "question": "멀티 클러스터 웨어하우스가 ECONOMY 확장 정책을 사용하는 경우, 다른 클러스터가 시작되기 전에 쿼리가 대기열에서 얼마나 오래 기다려야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1분"
+      },
+      {
+        "key": "B",
+        "text": "2분"
+      },
+      {
+        "key": "C",
+        "text": "6분"
+      },
+      {
+        "key": "D",
+        "text": "8분"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0011",
+    "category": "아키텍처 레이어",
+    "question": "자동 크기 조정 모드에서 가상 창고에 대한 쿼리를 실행하는 동안 어떤 설정이 구성되어 있으면 추가 클러스터가 즉시 지정됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "MAXCLUSTERCOUNT is increased and newmaxcluster is greater than runningclusters"
+      },
+      {
+        "key": "B",
+        "text": "MAXCLUSTERCOUNT is decreased and newmaxclusters is less than runningclusters"
+      },
+      {
+        "key": "C",
+        "text": "MINCLUSTERCOUNT is increased and newminclusters is greater than runningclusters"
+      },
+      {
+        "key": "D",
+        "text": "MINCLUSTERCOUNT is decreased and newmincluster is less than runningclusters"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0012",
+    "category": "아키텍처 레이어",
+    "question": "Snowflake는 대량의 데이터를 단일 또는 여러 개의 파일에 어떻게 처리합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "언로드된 각 데이터 파일에 고유한 이름을 지정합니다."
+      },
+      {
+        "key": "B",
+        "text": "기본적으로 put 명령을 사용하여 데이터를 다운로드합니다."
+      },
+      {
+        "key": "C",
+        "text": "기본 옵션이 SINGLE - TRUE인 대량 언로딩을 위해 COPY INTO <위치>를 사용합니다."
+      },
+      {
+        "key": "D",
+        "text": "COPY INTO <location>을 사용하여 테이블의 데이터를 외부 스테이지의 하나 이상의 파일에 복사합니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0013",
+    "category": "아키텍처 레이어",
+    "question": "ALTER WAREHOUSE 명령을 실행하고 웨어하우스 크기를 변경할 때 WAIT_FOR_COMPLETION = TRUE는 어떤 영향을 미칩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "창고 크기는 현재 창고에서 실행 중인 모든 쿼리가 완료될 때까지 변경되지 않습니다."
+      },
+      {
+        "key": "B",
+        "text": "창고 크기는 현재 창고 대기열에 있는 모든 쿼리가 완료될 때까지 변경되지 않습니다."
+      },
+      {
+        "key": "C",
+        "text": "창고 크기는 창고를 일시 중단하고 다시 시작할 때까지 변경되지 않습니다."
+      },
+      {
+        "key": "D",
+        "text": "창고가 크기 변경을 완료할 때까지 명령에서 반환되지 않습니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0014",
+    "category": "아키텍처 레이어 / 데이터 보존 정책",
+    "question": "객체의 보존 기간이 끝나면 과거 데이터는 어떻게 되나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터가 역사적 객체로 복제됩니다."
+      },
+      {
+        "key": "B",
+        "text": "데이터가 Fail-safe로 이동합니다."
+      },
+      {
+        "key": "C",
+        "text": "과거 데이터에 대한 시간 여행이 중단되었습니다."
+      },
+      {
+        "key": "D",
+        "text": "과거 데이터가 포함된 객체가 삭제됩니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0015",
+    "category": "아키텍처 레이어 / 비용",
+    "question": "가상 창고가 61초 동안 실행되고 종료된 후 다시 시작되어 30초 동안 실행되면 몇 초 동안 요금이 청구됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "60"
+      },
+      {
+        "key": "B",
+        "text": "91"
+      },
+      {
+        "key": "C",
+        "text": "120"
+      },
+      {
+        "key": "D",
+        "text": "121"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0016",
+    "category": "아키텍처 레이어 / 비용",
+    "question": "가상 창고의 단일 사용자가 창고를 10분 후 자동으로 재개하고 자동으로 일시 중지하도록 설정했습니다. 창고는 현재 중단되었으며 사용자는 다음 작업을 수행합니다. 1. 완료하는 데 3분이 걸리는 쿼리를 실행합니다. 2. 15분간 방치합니다. 3. 완료하는 데 10초가 걸리는 쿼리를 반환하고 실행합니다. 4. 마지막 쿼리가 완료되자마자 웨어하우스를 수동으로 일시 중단합니다. 사용자가 돌아왔을 때 청구 가능한 컴퓨팅 시간은 얼마나 소모되었을까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "14분"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0017",
+    "category": "아키텍처 레이어 / 비용",
+    "question": "Snowflake는 어떤 사용 사례에서 퇴실 요금을 적용합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "특정 지역 내 데이터 공유"
+      },
+      {
+        "key": "B",
+        "text": "쿼리 결과 검색"
+      },
+      {
+        "key": "C",
+        "text": "데이터베이스 복제"
+      },
+      {
+        "key": "D",
+        "text": "Snowflake에 데이터 로딩"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0018",
+    "category": "아키텍처 레이어 / 비용",
+    "question": "어떤 눈송이 객체가 저장 및 클라우드 컴퓨팅 비용을 모두 부담하게 됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "구체화된 뷰"
+      },
+      {
+        "key": "B",
+        "text": "시퀀스"
+      },
+      {
+        "key": "C",
+        "text": "보안 보기"
+      },
+      {
+        "key": "D",
+        "text": "일시적인 테이블"
+      },
+      {
+        "key": "E",
+        "text": "클러스터형 테이블"
+      }
+    ],
+    "correct": [
+      "A",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0019",
+    "category": "아키텍처 레이어 / 비용",
+    "question": "다음 활동 중 Snowflake 환경에서 가상 창고 크레딧을 소모하는 활동은 무엇입니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "쿼리 결과 캐싱"
+      },
+      {
+        "key": "B",
+        "text": "EXPLAIN 및 SHOW 명령 실행"
+      },
+      {
+        "key": "C",
+        "text": "데이터베이스 복제"
+      },
+      {
+        "key": "D",
+        "text": "사용자 정의 쿼리 실행"
+      },
+      {
+        "key": "E",
+        "text": "COPY 명령 실행"
+      }
+    ],
+    "correct": [
+      "D",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0020",
+    "category": "에디션",
+    "question": "어떤 최소 Snowflake 에디션에서 전용 메타데이터 저장소를 사용할 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "표준"
+      },
+      {
+        "key": "B",
+        "text": "엔터프라이즈"
+      },
+      {
+        "key": "C",
+        "text": "비즈니스에 중요함"
+      },
+      {
+        "key": "D",
+        "text": "가상 사설 스노우플레이크"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0021",
+    "category": "에디션",
+    "question": "SCIM 보안 통합을 사용하려면 Snowflake의 최소 버전은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "비즈니스 크리티컬 에디션"
+      },
+      {
+        "key": "B",
+        "text": "표준판"
+      },
+      {
+        "key": "C",
+        "text": "가상 사설 스노우플레이크(VPS)"
+      },
+      {
+        "key": "D",
+        "text": "엔터프라이즈 에디션"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0022",
+    "category": "Snowsight",
+    "question": "Snowflake 웹 인터페이스(Ul)의 쿼리 기록 페이지에 쿼리가 얼마나 오랫동안 표시되나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "60분"
+      },
+      {
+        "key": "B",
+        "text": "24시간"
+      },
+      {
+        "key": "C",
+        "text": "14일"
+      },
+      {
+        "key": "D",
+        "text": "30일"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0023",
+    "category": "Snowsight",
+    "question": "Snowsight의 워크시트와 데이터베이스 탐색기 기능을 사용하면 사용자는 무엇을 할 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "워크시트에 사용자를 추가하거나 제거합니다."
+      },
+      {
+        "key": "B",
+        "text": "워크시트를 폴더나 대시보드로 이동합니다."
+      },
+      {
+        "key": "C",
+        "text": "여러 워크시트를 하나의 워크시트로 결합합니다."
+      },
+      {
+        "key": "D",
+        "text": "자주 접근하는 워크시트에 태그를 지정하여 쉽게 접근할 수 있도록 합니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0024",
+    "category": "테이블 / 뷰 / 데이터 유형 / 테이블",
+    "question": "어떤 문장이 눈송이 테이블에 대한 설명인가요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "눈송이 테이블은 기본 물리적 데이터의 논리적 표현입니다."
+      },
+      {
+        "key": "B",
+        "text": "Snowflake 테이블은 Snowflake에 로드된 데이터의 물리적 인스턴스입니다."
+      },
+      {
+        "key": "C",
+        "text": "Snowflake 테이블은 최적의 성능을 위해 클러스터링 키를 정의해야 합니다."
+      },
+      {
+        "key": "D",
+        "text": "눈송이 테이블은 사용자의 소유입니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0025",
+    "category": "테이블 / 뷰 / 데이터 유형 / 테이블",
+    "question": "Snowflake의 일시적 테이블의 특징은 무엇입니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "임시 테이블에는 7일 동안 장애 안전 기간이 있습니다."
+      },
+      {
+        "key": "B",
+        "text": "임시 테이블은 영구 테이블에 복제될 수 있습니다."
+      },
+      {
+        "key": "C",
+        "text": "임시 테이블은 명시적으로 삭제될 때까지 유지됩니다."
+      },
+      {
+        "key": "D",
+        "text": "임시 테이블을 변경하여 영구 테이블로 만들 수 있습니다."
+      },
+      {
+        "key": "E",
+        "text": "임시 테이블의 시간 여행 보존 기간은 0일 또는 1일입니다."
+      }
+    ],
+    "correct": [
+      "B",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0026",
+    "category": "테이블 / 뷰 / 데이터 유형 / 테이블",
+    "question": "어떤 Snowflake 테이블 객체를 다른 계정과 공유할 수 있나요? (두 개 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "임시 테이블"
+      },
+      {
+        "key": "B",
+        "text": "영구 테이블"
+      },
+      {
+        "key": "C",
+        "text": "임시 테이블"
+      },
+      {
+        "key": "D",
+        "text": "외부 테이블"
+      },
+      {
+        "key": "E",
+        "text": "사용자 정의 테이블 함수(UDTF)"
+      }
+    ],
+    "correct": [
+      "B",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0027",
+    "category": "테이블 / 뷰 / 데이터 유형 / 테이블",
+    "question": "다른 테이블에 일치하는 행이 없더라도 지정된 테이블에 I개의 행을 나열하는 조인 유형은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "크로스 조인"
+      },
+      {
+        "key": "B",
+        "text": "내부 조인"
+      },
+      {
+        "key": "C",
+        "text": "자연 조인"
+      },
+      {
+        "key": "D",
+        "text": "외부 조인"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0028",
+    "category": "테이블 / 뷰 / 데이터 유형 / 테이블",
+    "question": "어떤 매개변수가 테이블의 스트림이 오래되는 것을 방지합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "MAXDATAEXTENSIONTIMEINDAYS"
+      },
+      {
+        "key": "B",
+        "text": "MTNDATARETENTIONTIMETNDAYS"
+      },
+      {
+        "key": "C",
+        "text": "LOCKTIMEOUT"
+      },
+      {
+        "key": "D",
+        "text": "STALEAFTER"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0029",
+    "category": "테이블 / 뷰 / 데이터 유형 / 테이블",
+    "question": "어떤 Snowflake 객체에 데이터 조작 언어(DML) 변경 사항을 기록하기 위한 스트림을 생성할 수 있습니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터베이스"
+      },
+      {
+        "key": "B",
+        "text": "Standard Table"
+      },
+      {
+        "key": "C",
+        "text": "External Table"
+      },
+      {
+        "key": "D",
+        "text": "Standard View"
+      },
+      {
+        "key": "E",
+        "text": "스키마"
+      },
+      {
+        "key": "F",
+        "text": "파이프"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0030",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "Snowflake에서 보안 뷰는 비보안 뷰와 어떻게 비교됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "보안 뷰는 비보안 뷰에 비해 느리게 실행됩니다."
+      },
+      {
+        "key": "B",
+        "text": "데이터를 공유할 때는 보안 뷰보다 비보안 뷰가 더 선호됩니다."
+      },
+      {
+        "key": "C",
+        "text": "보안 뷰는 구체화된 뷰와 유사하며 성능이 가장 좋습니다."
+      },
+      {
+        "key": "D",
+        "text": "보안 뷰와 비보안 뷰 사이에 성능 차이는 없습니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0031",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "보안 뷰의 정의는 어떤 권한을 가진 사용자에게만 노출됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "공유 가져오기"
+      },
+      {
+        "key": "B",
+        "text": "Ownership"
+      },
+      {
+        "key": "C",
+        "text": "Reference"
+      },
+      {
+        "key": "D",
+        "text": "Usage"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": "—> ‘정의 노출’은 Ownership, ‘쿼리 사용’은 Usage가 맞음"
+  },
+  {
+    "id": "Q0032",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "보안 뷰가 여러 데이터베이스의 데이터를 참조할 수 있도록 하려면 공유에 어떤 권한을 부여해야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "계정에 CREATESHARE 권한을 부여한다"
+      },
+      {
+        "key": "B",
+        "text": "데이터베이스와 스키마에 SHARE 권한을 부여한다"
+      },
+      {
+        "key": "C",
+        "text": "보안 뷰에서 사용하는 테이블에 SELECT 권한을 부여한다"
+      },
+      {
+        "key": "D",
+        "text": "데이터베이스에 REFERENCEUSAGE 권한을 부여한다"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0033",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "보안 뷰를 사용하기로 결정할 때 고려해야 할 사항은 무엇입니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "쿼리 프로파일러에서 쿼리 실행 계획에 대한 세부 정보를 사용할 수 없습니다."
+      },
+      {
+        "key": "B",
+        "text": "뷰가 생성되고 나면 해당 뷰가 안전한지 아닌지 확인할 방법이 없습니다."
+      },
+      {
+        "key": "C",
+        "text": "보안 뷰는 표준 뷰와 동일한 내부 최적화를 활용하지 않습니다."
+      },
+      {
+        "key": "D",
+        "text": "안전한 구체화된 뷰를 생성할 수 없습니다."
+      },
+      {
+        "key": "E",
+        "text": "보안 뷰의 뷰 정의는 정보 스키마를 통해 사용자에게 계속 표시됩니다."
+      }
+    ],
+    "correct": [
+      "A",
+      "C"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0034",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "어떤 문장이 구체화된 뷰의 특성을 정확하게 설명하고 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "구체화된 뷰는 단일 테이블만 쿼리할 수 있습니다."
+      },
+      {
+        "key": "B",
+        "text": "구체화된 뷰를 통해 액세스한 데이터는 오래되었을 수 있습니다."
+      },
+      {
+        "key": "C",
+        "text": "구체화된 뷰 새로 고침은 사용자가 유지해야 합니다."
+      },
+      {
+        "key": "D",
+        "text": "구체화된 뷰를 쿼리하는 것은 뷰의 기본 테이블에 대해 쿼리를 실행하는 것보다 느립니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0035",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "Materialized View의 한계는 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "구체화된 뷰는 어떠한 집계 함수도 지원할 수 없습니다."
+      },
+      {
+        "key": "B",
+        "text": "구체화된 뷰는 최대 두 개의 테이블만 참조할 수 있습니다."
+      },
+      {
+        "key": "C",
+        "text": "Materialized View는 다른 테이블과 조인할 수 없습니다."
+      },
+      {
+        "key": "D",
+        "text": "구체화된 뷰는 JOIN으로 정의할 수 없습니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0036",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "구체화된 뷰를 유지하는 데 있어 크레딧 소비에 영향을 미치는 요소는 무엇입니까? (두 가지를 선택하세요.)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "보안 뷰인지 여부"
+      },
+      {
+        "key": "B",
+        "text": "기본 테이블이 쿼리되는 빈도"
+      },
+      {
+        "key": "C",
+        "text": "기본 테이블이 변경되는 빈도"
+      },
+      {
+        "key": "D",
+        "text": "구체화된 뷰에 클러스터 키가 정의되어 있는지 여부"
+      },
+      {
+        "key": "E",
+        "text": "구체화된 뷰가 쿼리되는 빈도"
+      }
+    ],
+    "correct": [
+      "C",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0037",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "SQL 쓰기 작업에서 소스에서 대상으로 데이터가 흐르는 방식을 지정하는 열 계보에 대한 정보를 표시하는 시스템 정의 읽기 전용 뷰는 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ACCESS HISTORY"
+      },
+      {
+        "key": "B",
+        "text": "로드호스팅"
+      },
+      {
+        "key": "C",
+        "text": "쿼리 기록"
+      },
+      {
+        "key": "D",
+        "text": "복사 기록"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0038",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "사용자는 뷰에서 참조되는 열을 어떻게 변경할 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "기본 테이블의 열을 수정합니다."
+      },
+      {
+        "key": "B",
+        "text": "ALTER VIEW 명령을 사용하여 뷰를 업데이트합니다."
+      },
+      {
+        "key": "C",
+        "text": "필요한 변경 사항을 적용하여 뷰를 다시 생성합니다."
+      },
+      {
+        "key": "D",
+        "text": "변경 사항을 수행하기 위해 뷰를 구체화합니다."
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0039",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "Access_History 보기는 읽기 및 쓰기 작업과 관련된 전반적인 데이터 거버넌스를 어떻게 향상시키나요?(두 개를 선택하세요)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "액세스된 데이터가 소스에서 대상 개체로 어떻게 이동되었는지 보여줍니다."
+      },
+      {
+        "key": "B",
+        "text": "어떤 데이터가 언제 액세스되었는지에 대한 통합된 그림을 제공합니다."
+      },
+      {
+        "key": "C",
+        "text": "쿼리 런타임 시 권한이 있는 사용자가 액세스할 수 있도록 하는 동시에 권한이 없는 액세스로부터 민감한 데이터를 보호합니다."
+      },
+      {
+        "key": "D",
+        "text": "개인 정보가 있는 열을 식별하고 태그를 지정하여 마스킹 정책을 적용하여 민감한 데이터를 보호할 수 있습니다."
+      },
+      {
+        "key": "E",
+        "text": "주어진 정책에 따라 데이터를 필터링하여 사용자가 테이블의 주어진 행에 액세스할 수 있는지 여부를 결정합니다."
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0040",
+    "category": "테이블 / 뷰 / 데이터 유형 / 뷰",
+    "question": "INFORMATION_SCHEMA와 ACCOUNT_USAGE는 다음 중 어떤 개체에 대한 저장(Storage) 정보를 제공합니까? (세 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "사용자"
+      },
+      {
+        "key": "B",
+        "text": "테이블"
+      },
+      {
+        "key": "C",
+        "text": "데이터베이스"
+      },
+      {
+        "key": "D",
+        "text": "Internal Stage"
+      }
+    ],
+    "correct": [
+      "B",
+      "C",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 3,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0041",
+    "category": "테이블 / 뷰 / 데이터 유형 / 데이터 유형",
+    "question": "Snowflake에서 반구조화된 데이터를 언로드할 때 어떤 데이터 형식을 지원합니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Avro의 바이너리 파일"
+      },
+      {
+        "key": "B",
+        "text": "Parquet의 바이너리 파일"
+      },
+      {
+        "key": "C",
+        "text": "쉼표로 구분된 JSON"
+      },
+      {
+        "key": "D",
+        "text": "줄바꿈으로 구분된 JSON"
+      },
+      {
+        "key": "E",
+        "text": "XML 요소를 포함하는 일반 텍스트 파일"
+      }
+    ],
+    "correct": [
+      "B",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0042",
+    "category": "테이블 / 뷰 / 데이터 유형 / 데이터 유형",
+    "question": "Snowflake는 어떤 형식으로 비정형 데이터를 저장합니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "GeoJSON"
+      },
+      {
+        "key": "B",
+        "text": "Array"
+      },
+      {
+        "key": "C",
+        "text": "XML"
+      },
+      {
+        "key": "D",
+        "text": "Object"
+      },
+      {
+        "key": "E",
+        "text": "BLOB"
+      }
+    ],
+    "correct": [
+      "B",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0043",
+    "category": "테이블 / 뷰 / 데이터 유형 / 데이터 유형",
+    "question": "구조화되지 않은 데이터에는 어떤 REST API를 사용할 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "삽입Filcs"
+      },
+      {
+        "key": "B",
+        "text": "보고서 삽입"
+      },
+      {
+        "key": "C",
+        "text": "/api/tiles/를 가져옵니다."
+      },
+      {
+        "key": "D",
+        "text": "로드히스토리스캔"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0044",
+    "category": "테이블 / 뷰 / 데이터 유형 / 데이터 유형",
+    "question": "열을 작은따옴표나 큰따옴표로 묶는 CSV 파일 형식을 만들 때 무엇을 사용해야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "이진 형식"
+      },
+      {
+        "key": "B",
+        "text": "닫히지 않은 필드 이스케이프"
+      },
+      {
+        "key": "C",
+        "text": "FIELDOPTIONALLYENCLOSEDBY"
+      },
+      {
+        "key": "D",
+        "text": "스킵 바이트 순서 표시"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0045",
+    "category": "테이블 / 뷰 / 데이터 유형 / 데이터 유형",
+    "question": "Snowflake에서 네임스페이스를 구성하는 객체는 무엇입니까? (두 개 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "계정"
+      },
+      {
+        "key": "B",
+        "text": "데이터베이스"
+      },
+      {
+        "key": "C",
+        "text": "스키마"
+      },
+      {
+        "key": "D",
+        "text": "테이블"
+      },
+      {
+        "key": "E",
+        "text": "가상 창고"
+      }
+    ],
+    "correct": [
+      "B",
+      "C"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0046",
+    "category": "테이블 / 뷰 / 데이터 유형 / 데이터 유형",
+    "question": "다음 중 UNDROP 명령을 사용하여 직접 복원할 수 있는 객체는 무엇입니까? (두 개 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "스키마"
+      },
+      {
+        "key": "B",
+        "text": "뷰"
+      },
+      {
+        "key": "C",
+        "text": "내부 단계"
+      },
+      {
+        "key": "D",
+        "text": "테이블"
+      },
+      {
+        "key": "E",
+        "text": "사용자"
+      },
+      {
+        "key": "F",
+        "text": "역할"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 3,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0047",
+    "category": "쿼리/기능 / 함수",
+    "question": "어떤 Snowflake 함수가 입력 문자열을 JSON 문서로 해석하고 VARIANT 값을 생성할까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "parsejson()"
+      },
+      {
+        "key": "B",
+        "text": "jsonextractpathtext()"
+      },
+      {
+        "key": "C",
+        "text": "objectconstruct()"
+      },
+      {
+        "key": "D",
+        "text": "flatten"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0048",
+    "category": "쿼리/기능 / 함수",
+    "question": "“DATA\"라는 열에는 VARIANT 데이터가 포함되어 있으며 다음과 같이 값이 저장됩니다. { \"Employee\": { \"id\": 100, \"name\": \"John\", \"location\": \"New York\" } } Snowflake는 열 데이터에서 직원 이름을 어떻게 추출할까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "DATA:\"Employee\":\"name”"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0049",
+    "category": "쿼리/기능 / 함수",
+    "question": "다음 표에서 Snowflake 사용자는 어떻게 JSON 객체에 액세스할 수 있습니까? (두 가지 선택) SRC { \"salesperson\": { \"name\": \"user\", \"id\": \"1234\" } }",
+    "choices": [
+      {
+        "key": "A",
+        "text": "src:salesperson.name"
+      },
+      {
+        "key": "B",
+        "text": "src:sa1esPerson. name"
+      },
+      {
+        "key": "C",
+        "text": "src:salesperson.Name"
+      },
+      {
+        "key": "D",
+        "text": "SRC:salesperson.name"
+      },
+      {
+        "key": "E",
+        "text": "SRC:salesperson.Name"
+      }
+    ],
+    "correct": [
+      "A",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0050",
+    "category": "쿼리/기능 / 함수",
+    "question": "JSON 문서는 VARIANT 유형의 source_colum에 저장됩니다. 이 문서에는 elements라는 배열이 있습니다. 이 배열에는 문자열 값을 갖는 name 키가 포함되어 있습니다. Snowflake 사용자는 첫 번째 요소에서 name을 어떻게 추출할 수 있을까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sourcecolumn.element[1]:name"
+      },
+      {
+        "key": "B",
+        "text": "Sourcecolumn.element[0]:name"
+      },
+      {
+        "key": "C",
+        "text": "Sourcecolumn.element[1].name"
+      },
+      {
+        "key": "D",
+        "text": "sourcecolumn:elements[0].name"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0051",
+    "category": "쿼리/기능 / 함수",
+    "question": "VARIANT 필드에 JSON 형식 문자열 데이터를 삽입하려면 어떤 함수를 사용해야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "FLATTEN"
+      },
+      {
+        "key": "B",
+        "text": "CHECKJSON"
+      },
+      {
+        "key": "C",
+        "text": "PARSEJSON"
+      },
+      {
+        "key": "D",
+        "text": "TOVARIANT"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0052",
+    "category": "쿼리/기능 / 함수",
+    "question": "어떤 명령이 세션의 가상 창고를 설정합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "COPY WAREHOUSE FROM <configfile>;"
+      },
+      {
+        "key": "B",
+        "text": "SET WAREHOUSE = <warehousename>;"
+      },
+      {
+        "key": "C",
+        "text": "USE WAREHOUSE <warehousename>;"
+      },
+      {
+        "key": "D",
+        "text": "USE VIRTUALWAREHOUSE <warehousename>;"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0053",
+    "category": "쿼리/기능 / 함수",
+    "question": "객체의 모든 중첩 요소에 대한 고유한 키 이름 목록을 반환하기 위해 재귀적 인수와 함께 사용할 수 있는 함수는 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "FLATTEN"
+      },
+      {
+        "key": "B",
+        "text": "GETPATH"
+      },
+      {
+        "key": "C",
+        "text": "CHECKJSON"
+      },
+      {
+        "key": "D",
+        "text": "PARSEJSON"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0054",
+    "category": "쿼리/기능 / 함수",
+    "question": "Snowflake 데이터베이스의 스키마에 있는 테이블(TABLE_A)에 태그 객체가 할당되었습니다.어떤 CREATE 객체 명령문이 대상 객체에 TABLE_A 태그를 자동으로 할당할까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "CREATE TABLE <tablename> LIKE TABLEA;"
+      },
+      {
+        "key": "B",
+        "text": "CREATE VIEW <viewname> AS SELECT * FROM TABLEA;"
+      },
+      {
+        "key": "C",
+        "text": "CREATE TABLE <tablename> AS SELECT * FROM TABLEA;"
+      },
+      {
+        "key": "D",
+        "text": "CREATE MATERIALIZED VIEW <viewname> AS SELECT * FROM TABLEA;"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0055",
+    "category": "쿼리/기능 / 함수",
+    "question": "SnowSQL을 사용해서만 실행할 수 있는 명령은 무엇입니까? (두 개 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "COPY INTO"
+      },
+      {
+        "key": "B",
+        "text": "GET"
+      },
+      {
+        "key": "C",
+        "text": "LIST"
+      },
+      {
+        "key": "D",
+        "text": "PUT"
+      },
+      {
+        "key": "E",
+        "text": "REMOVE"
+      }
+    ],
+    "correct": [
+      "B",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0056",
+    "category": "쿼리/기능 / 함수",
+    "question": "COPY 명령에 지정된 파일 전체에서 오류를 반환하는 VALIDATION_MODE 값은 무엇입니까? 여기에는 이전 로드 중에 부분적으로 로드된 파일도 포함됩니다.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "RETURN-1R0WS"
+      },
+      {
+        "key": "B",
+        "text": "RETURNnROWS"
+      },
+      {
+        "key": "C",
+        "text": "RETURNERRORS"
+      },
+      {
+        "key": "D",
+        "text": "RETURN ALL ERRORS"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0057",
+    "category": "쿼리/기능 / UDF/저장프로시저",
+    "question": "Snowflake 저장 프로시저는 사용자 정의 함수(UDF)와 어떻게 비교됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "하나의 실행 가능한 명령문은 두 개의 저장 프로시저만 호출할 수 있습니다. 반면, 하나의 SQL 명령문은 여러 개의 UDF를 호출할 수 있습니다."
+      },
+      {
+        "key": "B",
+        "text": "단일 실행 명령문은 하나의 저장 프로시저만 호출할 수 있습니다. 반면, 단일 SQL 명령문은 여러 UDF를 호출할 수 있습니다."
+      },
+      {
+        "key": "C",
+        "text": "하나의 실행 가능한 명령문은 여러 개의 저장 프로시저를 호출할 수 있습니다. 반대로, 여러 개의 SQL 명령문은 동일한 UDF를 호출할 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "여러 개의 실행 가능한 명령문이 두 개 이상의 저장 프로시저를 호출할 수 있습니다. 반면, 단일 SQL 명령문은 여러 개의 UDF를 호출할 수 있습니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0058",
+    "category": "쿼리/기능 / UDF/저장프로시저",
+    "question": "어떤 언어에서 사용자 정의 함수(UDF) 핸들러를 인라인으로 작성해야 합니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Java"
+      },
+      {
+        "key": "B",
+        "text": "Javascript"
+      },
+      {
+        "key": "C",
+        "text": "Scala"
+      },
+      {
+        "key": "D",
+        "text": "Python"
+      },
+      {
+        "key": "E",
+        "text": "SQL"
+      }
+    ],
+    "correct": [
+      "B",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0059",
+    "category": "쿼리/기능 / UDF/저장프로시저",
+    "question": "Snowflake 사용자는 일부 정규화되지 않은 개체 이름을 포함하는 사용자 정의 함수(UDF)를 작성하고 있습니다.실행 중에 해당 객체 이름이 어떻게 확인되나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Snowflake는 SEARCHPATH 매개변수에 따라 이를 해결합니다."
+      },
+      {
+        "key": "B",
+        "text": "Snowflake는 UDF가 속한 스키마만 확인합니다."
+      },
+      {
+        "key": "C",
+        "text": "Snowflake는 먼저 현재 스키마를 확인한 다음 이전 쿼리에서 사용된 스키마를 확인합니다."
+      },
+      {
+        "key": "D",
+        "text": "Snowflake는 먼저 현재 스키마를 확인하고, 현재 데이터베이스의 PUBLIC 스키마를 확인합니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0060",
+    "category": "쿼리/기능 / UDF/저장프로시저",
+    "question": "Snowflake는 어떤 유형의 하위 쿼리를 지원합니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "WHERE 절의 상관관계 없는 스칼라 하위 쿼리"
+      },
+      {
+        "key": "B",
+        "text": "값 표현식을 사용할 수 있는 모든 위치에 있는 상관 없는 스칼라 하위 쿼리"
+      },
+      {
+        "key": "C",
+        "text": "WHERE 절의 EXISTS, ANY / ALL 및 IN 하위 쿼리: 이러한 하위 쿼리는 상관 관계가 없을 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "where 절의 EXISTS, ANY / ALL 및 IN 하위 쿼리: 이러한 하위 쿼리는 상관 관계가 있을 수 있습니다."
+      },
+      {
+        "key": "E",
+        "text": "WHERE 절의 EXISTS, ANY/ALL 및 IN 하위 쿼리: 이러한 하위 쿼리는 상관 관계가 있거나 없을 수 있습니다."
+      }
+    ],
+    "correct": [
+      "B",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0061",
+    "category": "쿼리/기능 / 복제",
+    "question": "데이터베이스가 복제되면 무슨 일이 일어날까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "소스 개체에 부여된 권한을 유지하지 않습니다."
+      },
+      {
+        "key": "B",
+        "text": "해당 소스 개체에 부여된 모든 권한을 복제합니다."
+      },
+      {
+        "key": "C",
+        "text": "해당 자식 개체에 부여된 모든 권한을 복제합니다."
+      },
+      {
+        "key": "D",
+        "text": "해당 자식 스키마 개체에 부여된 모든 권한을 복제합니다."
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0062",
+    "category": "쿼리/기능 / 복제",
+    "question": "복제된 테이블을 Secondary 데이터베이스에 복제하면 어떤 일이 발생합니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "복제된 테이블의 읽기 전용 복사본이 저장됩니다."
+      },
+      {
+        "key": "B",
+        "text": "복제가 성공하지 못합니다."
+      },
+      {
+        "key": "C",
+        "text": "물리적 데이터가 복제됩니다."
+      },
+      {
+        "key": "D",
+        "text": "추가 보관 비용은 Secondary 계정에 청구됩니다."
+      },
+      {
+        "key": "E",
+        "text": "복제된 테이블에 대한 메타데이터 포인터가 복제됩니다."
+      }
+    ],
+    "correct": [
+      "A",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0063",
+    "category": "쿼리/기능 / 복제",
+    "question": "저장 프로시저와 일반 뷰가 들어 있고 완전히 정규화된 테이블 참조가 있는 데이터베이스를 복제할 때 다음 중 어떤 일이 발생합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "복제된 뷰와 저장 프로시저는 복제된 데이터베이스의 복제된 테이블을 참조합니다."
+      },
+      {
+        "key": "B",
+        "text": "검증된 참조가 있는 뷰는 복제할 수 없으므로 오류가 발생합니다."
+      },
+      {
+        "key": "C",
+        "text": "저장된 객체를 복제할 수 없으므로 오류가 발생합니다."
+      },
+      {
+        "key": "D",
+        "text": "저장 프로시저와 뷰는 소스 데이터베이스의 테이블을 참조합니다."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0064",
+    "category": "쿼리/기능 / 복제",
+    "question": "어떤 Snowflake 함수가 JSON-null을 SQL-null로 구문 분석합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "TOCHAR"
+      },
+      {
+        "key": "B",
+        "text": "TOVARIANT"
+      },
+      {
+        "key": "C",
+        "text": "TOVARCHAR"
+      },
+      {
+        "key": "D",
+        "text": "STRIP NULL VALUE"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0065",
+    "category": "쿼리/기능 / 복제",
+    "question": "Snowflake에 반구조화된 데이터 파일을 로드할 때 STRIP NULL_VALUES 파일 형식 옵션의 목적은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터의 모든 열에서 null 값을 제거합니다."
+      },
+      {
+        "key": "B",
+        "text": "로딩하는 동안 null 값을 빈 문자열로 변환합니다."
+      },
+      {
+        "key": "C",
+        "text": "로딩 과정에서 null 값이 있는 행을 건너뜁니다."
+      },
+      {
+        "key": "D",
+        "text": "null 값을 포함하는 객체나 배열 요소를 제거합니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0066",
+    "category": "쿼리/기능 / 캐싱",
+    "question": "다음 중 Snowflake 데이터 캐싱의 기능을 설명하는 것은 무엇입니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "가상 창고가 일시 중단되면 데이터 캐시는 원격 스토리지 계층에 저장됩니다."
+      },
+      {
+        "key": "B",
+        "text": "데이터 캐시가 가득 차면 가장 최근에 사용되지 않은 데이터부터 지워져 공간을 확보합니다."
+      },
+      {
+        "key": "C",
+        "text": "사용자는 쿼리 결과 캐시에서만 자신의 쿼리에 액세스할 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "사용자는 쿼리에서 메타데이터 캐시를 사용하려면 USEMETADATACACHE를 TRUE로 설정해야 합니다."
+      },
+      {
+        "key": "E",
+        "text": "RESULTSCAN 테이블 함수는 쿼리 결과 캐시의 내용에 액세스하고 필터링할 수 있습니다."
+      }
+    ],
+    "correct": [
+      "B",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0067",
+    "category": "쿼리/기능 / 캐싱",
+    "question": "ResultSet 캐시 활용을 방해하는 작업은 무엇입니까? (두 가지를 선택하세요.)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "쿼리 SELECT 목록에서 열 제거"
+      },
+      {
+        "key": "B",
+        "text": "쿼리가 실행 중인 가상 창고를 중지합니다."
+      },
+      {
+        "key": "C",
+        "text": "쿼리에서 사용하는 데이터의 클러스터링"
+      },
+      {
+        "key": "D",
+        "text": "RESULTSSCAN() 테이블 함수 실행"
+      },
+      {
+        "key": "E",
+        "text": "캐시된 쿼리에 없는 열 변경"
+      }
+    ],
+    "correct": [
+      "A",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0068",
+    "category": "쿼리/기능 / 캐싱",
+    "question": "SYSADMIN 역할을 가진 User1이 Snowsight에서 쿼리를 실행했습니다. 동일한 Snowflake 계정에 있는 User2는 Snowsight 쿼리 기록을 사용하여 User1이 실행한 쿼리의 결과 집합을 확인하려고 합니다.User2가 쿼리 기록에 접근하려고 하면 어떻게 되나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "User2에게 sysadmin 역할이 있는 경우 결과를 볼 수 있습니다."
+      },
+      {
+        "key": "B",
+        "text": "User2에게 securityadmin 역할이 있는 경우 결과를 볼 수 있습니다."
+      },
+      {
+        "key": "C",
+        "text": "User2에게 ACCOUNTADMIN 역할이 있는 경우 결과를 볼 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "User2는 User1이 실행한 쿼리의 결과 세트를 볼 수 없습니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0069",
+    "category": "쿼리 성능 최적화 / 검색 최적화 서비스",
+    "question": "검색 최적화 서비스는 Snowflake 사용자의 쿼리 성능을 개선하는 데 어떻게 도움이 되나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "쿼리에서 사용된 조인을 기반으로 마이크로 파티션을 스캔하고 조인 열만 스캔합니다."
+      },
+      {
+        "key": "B",
+        "text": "II는 각 마이크로 파티션의 테이블 열 값을 추적하는 영구적인 데이터 구조를 유지합니다."
+      },
+      {
+        "key": "C",
+        "text": "쿼리에 사용된 테이블에 대한 스캔을 방지하기 위해 로컬 디스크 캐시를 스캔합니다."
+      },
+      {
+        "key": "D",
+        "text": "실행 중인 쿼리와 그 결과를 추적하고 테이블에 추가 스캔을 저장합니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0070",
+    "category": "쿼리 성능 최적화 / 검색 최적화 서비스",
+    "question": "Snowflake에서 검색 최적화 서비스를 사용하려면 어떤 권한이 필요합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "GRANT SEARCH OPTIMIZATION ON SCHEMA <schemaname> TO ROLE <role>"
+      },
+      {
+        "key": "B",
+        "text": "GRANT SEARCH OPTIMIZATION ON DATABASE <databasename> TO ROLE <role>"
+      },
+      {
+        "key": "C",
+        "text": "GRANT ADD SEARCH OPTIMIZATION ON SCHEMA <schemaname> TO ROLE <role>"
+      },
+      {
+        "key": "D",
+        "text": "GRANT ADD SEARCH OPTIMIZATION ON DATABASE <database name> TO ROLE <role>"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0071",
+    "category": "쿼리 성능 최적화 / 검색 최적화 서비스",
+    "question": "Snowflake 사용자는 테이블에서 소수의 행만 쿼리하는 쿼리의 성능을 최적화하려고 합니다. 행에는 상당한 처리가 필요하며, 테이블의 데이터는 자주 변경되지 않습니다. 사용자는 어떻게 해야 하나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "테이블에 클러스터링 키를 추가합니다."
+      },
+      {
+        "key": "B",
+        "text": "테이블에 검색 최적화 서비스를 추가합니다."
+      },
+      {
+        "key": "C",
+        "text": "쿼리를 기반으로 구체화된 뷰를 생성합니다."
+      },
+      {
+        "key": "D",
+        "text": "가상 창고에 대한 쿼리 가속 서비스를 활성화합니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0072",
+    "category": "쿼리 성능 최적화 / 쿼리 가속 서비스",
+    "question": "어떤 유형의 쿼리가 쿼리 가속 서비스로부터 이점을 얻을 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "필터나 집계가 없는 쿼리"
+      },
+      {
+        "key": "B",
+        "text": "대규모 스캔 및 선택적 필터가 포함된 쿼리"
+      },
+      {
+        "key": "C",
+        "text": "GROUP BY가 높은 카디널리티를 갖는 쿼리"
+      },
+      {
+        "key": "D",
+        "text": "검색 최적화 서비스가 활성화된 테이블의 쿼리"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0073",
+    "category": "쿼리 성능 최적화 / 클러스터링 키",
+    "question": "매우 큰 표를 하나 이상의 열로 재구성하는 데 사용할 수 있는 기능은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "마이크로 파티션"
+      },
+      {
+        "key": "B",
+        "text": "클러스터링 키"
+      },
+      {
+        "key": "C",
+        "text": "키 파티션"
+      },
+      {
+        "key": "D",
+        "text": "클러스터된 파티션"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0074",
+    "category": "쿼리 성능 최적화 / 클러스터링 키",
+    "question": "Snowflake 사용자가 테이블을 클러스터링하기로 결정한 경우, 클러스터 키로 무엇을 사용해야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "select 절에서 쿼리되는 열입니다."
+      },
+      {
+        "key": "B",
+        "text": "매우 높은 카디널리티를 가진 열입니다."
+      },
+      {
+        "key": "C",
+        "text": "다양한 값을 갖는 열입니다."
+      },
+      {
+        "key": "D",
+        "text": "선택 필터에서 가장 활발하게 사용되는 열입니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0075",
+    "category": "쿼리 성능 최적화 / 클러스터링 키",
+    "question": "다음 중 Snowflake에서 클러스터링 키가 작동하는 방식을 설명하는 것은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "클러스터링 키는 전체 정렬을 통해 마이크로 파티션을 업데이트하고 DML 작업에 영향을 미칩니다."
+      },
+      {
+        "key": "B",
+        "text": "클러스터링 키는 DML 작업을 차단하지 않고 지정된 열을 시간 경과에 따라 정렬합니다."
+      },
+      {
+        "key": "C",
+        "text": "클러스터링 키는 테이블의 행과 열에 대한 포인터의 분산된 병렬 데이터 구조를 생성합니다."
+      },
+      {
+        "key": "D",
+        "text": "클러스터링 키는 런타임 시 조인을 최적화하기 위해 가상 웨어하우스의 각 노드에 해시된 키를 설정합니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0076",
+    "category": "쿼리 성능 최적화 / 클러스터링 키",
+    "question": "매우 큰 테이블에서 실행되는 쿼리의 성능을 최적화하려면 클러스터링을 어떻게 사용해야 할까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "테이블을 정기적으로 수동으로 다시 클러스터링합니다."
+      },
+      {
+        "key": "B",
+        "text": "클러스터링 키로 높은 카디널리티 열 하나를 선택합니다."
+      },
+      {
+        "key": "C",
+        "text": "쿼리 선택 절에서 가장 자주 사용되는 열을 클러스터링 키로 사용합니다."
+      },
+      {
+        "key": "D",
+        "text": "클러스터링이 쿼리에 어떤 영향을 미치는지 파악하기 위해 평균 테이블 깊이를 평가합니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0077",
+    "category": "쿼리 성능 최적화 / 클러스터링 키",
+    "question": "테이블에 클러스터링 키가 정의되었지만 더 이상 필요하지 않습니다. 이 키를 제거하려면 어떻게 해야 하나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ALTER TABLE <tablename> DROP CLUSTERING KEY;"
+      },
+      {
+        "key": "B",
+        "text": "ALTER TABLE <tablename> UNSET CLUSTERING KEY;"
+      },
+      {
+        "key": "C",
+        "text": "ALTER TABLE <tablename> REMOVE CLUSTERING KEY;"
+      },
+      {
+        "key": "D",
+        "text": "ALTER TABLE <tablename> DELETE CLUSTERING KEY;"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0078",
+    "category": "쿼리 성능 최적화 / 쿼리 프로필",
+    "question": "쿼리 프로필의 실행 시간 요약에는 어떤 범주가 포함됩니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Pruning"
+      },
+      {
+        "key": "B",
+        "text": "Spilling"
+      },
+      {
+        "key": "C",
+        "text": "Initialization"
+      },
+      {
+        "key": "D",
+        "text": "Local Disk I/O"
+      },
+      {
+        "key": "E",
+        "text": "Percentage of data read from cache"
+      }
+    ],
+    "correct": [
+      "C",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0079",
+    "category": "쿼리 성능 최적화 / 쿼리 프로필",
+    "question": "쿼리 프로필은 어떤 정보를 제공합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터 모델의 그래픽 표현"
+      },
+      {
+        "key": "B",
+        "text": "처리 계획의 각 구성 요소에 대한 통계"
+      },
+      {
+        "key": "C",
+        "text": "데이터베이스 스키마에 대한 자세한 정보"
+      },
+      {
+        "key": "D",
+        "text": "데이터베이스 작업의 실시간 모니터링"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0080",
+    "category": "쿼리 성능 최적화 / 쿼리 프로필",
+    "question": "쿼리 프로필과 가상 창고의 관계는 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "쿼리 프로필은 사용자가 가상 창고의 크기를 적절하게 조정하는 데 도움이 될 수 있습니다."
+      },
+      {
+        "key": "B",
+        "text": "쿼리 프로필은 가상 창고의 하드웨어 사양을 정의합니다."
+      },
+      {
+        "key": "C",
+        "text": "쿼리 프로필은 사용 가능한 가상 창고의 수를 결정하는 데 도움이 될 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "쿼리 프로필은 쿼리 복잡성에 따라 가상 창고를 자동으로 확장합니다."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0081",
+    "category": "쿼리 성능 최적화 / 쿼리 프로필",
+    "question": "쿼리 프로필의 어떤 통계 정보가 쿼리가 메모리에 맞지 않을 정도로 크다는 것을 나타냅니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "바이트가 로컬 캐시에 유출되었습니다."
+      },
+      {
+        "key": "B",
+        "text": "로컬 저장소에 바이트가 유출되었습니다."
+      },
+      {
+        "key": "C",
+        "text": "바이트가 원격 캐시에 유출되었습니다."
+      },
+      {
+        "key": "D",
+        "text": "바이트가 원격 저장소로 유출되었습니다."
+      },
+      {
+        "key": "E",
+        "text": "바이트가 원격 메타스토어로 유출되었습니다."
+      }
+    ],
+    "correct": [
+      "B",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0082",
+    "category": "쿼리 성능 최적화 / 쿼리 프로필",
+    "question": "쿼리 프로필에서 TableScan 연산자는 무엇을 나타냅니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "단일 테이블에 대한 액세스"
+      },
+      {
+        "key": "B",
+        "text": "스테이지 객체에 저장된 데이터에 대한 액세스"
+      },
+      {
+        "key": "C",
+        "text": "VALUES 절과 함께 제공되는 값 목록"
+      },
+      {
+        "key": "D",
+        "text": "TABLE (GENERATOR (...)) 구조를 사용하여 생성된 레코드"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0083",
+    "category": "쿼리 성능 최적화 / Explain",
+    "question": "쿼리 프로파일러 대신 설명 계획을 사용하여 쿼리의 성능을 평가하는 이점은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "설명 계획 출력은 그래픽으로 제공됩니다."
+      },
+      {
+        "key": "B",
+        "text": "설명 계획을 사용하면 쿼리를 실행하지 않고도 성능 분석을 수행할 수 있습니다."
+      },
+      {
+        "key": "C",
+        "text": "설명 계획은 임시 테이블이 있는 쿼리를 처리하지만 쿼리 프로파일러는 처리하지 않습니다."
+      },
+      {
+        "key": "D",
+        "text": "설명 계획의 출력에는 자동 데이터 비대칭 최적화 정보가 표시됩니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0084",
+    "category": "데이터 로드/언로드 / 데이터 로드",
+    "question": "Snowflake에 데이터를 로드할 때 어떤 점을 고려해야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "작은 데이터 파일을 만들어 클라우드 저장소에 자주 저장합니다."
+      },
+      {
+        "key": "B",
+        "text": "각 파일의 처리 오버헤드를 최대화하기 위해 대용량 데이터 파일을 만듭니다."
+      },
+      {
+        "key": "C",
+        "text": "병렬로 실행되는 로드 작업의 수는 로드할 데이터 파일 수를 초과할 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "병렬로 처리되는 데이터 파일의 수는 가상 웨어하우스에 의해 결정됩니다"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0085",
+    "category": "데이터 로드/언로드 / 데이터 로드",
+    "question": "Snowflake 사용자가 SnowSQL을 사용하여 125GB 파일을 로드하려고 합니다. 파일이 거의 하루 종일 계속 로드됩니다. 2시간 후에 무슨 일이 일어날까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "모든 내용이 로드될 때까지 파일이 계속 로드됩니다."
+      },
+      {
+        "key": "B",
+        "text": "타일이 로딩을 멈추고 그 지점까지의 모든 데이터가 커밋됩니다."
+      },
+      {
+        "key": "C",
+        "text": "파일의 일부는 커밋되지 않고 파일 로딩이 중단될 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "파일의 허용 가능한 로드 시간 수는 Snowflake에 쉽게 로드되도록 프로그래밍 방식으로 제어될 수 있습니다."
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0086",
+    "category": "데이터 로드/언로드 / 데이터 로드",
+    "question": "다음 중 Snowflake에 데이터를 로드하는 가장 좋은 방법은 무엇입니까? (세 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "100MB~250MB 크기의 데이터 파일을 압축하여 생성합니다."
+      },
+      {
+        "key": "B",
+        "text": "Snowflake 계정이 포함된 서비스나 지역과 다른 지역이나 클라우드 플랫폼의 클라우드 스토리지 서비스에 있는 파일의 데이터를 로드하여 비용을 절감합니다."
+      },
+      {
+        "key": "C",
+        "text": "구분 기호가 포함된 필드를 작은따옴표나 큰따옴표로 묶습니다."
+      },
+      {
+        "key": "D",
+        "text": "활성 웨어하우스의 컴퓨팅 리소스에 부하를 분산하기 위해 큰 파일을 여러 개의 작은 파일로 분할합니다."
+      },
+      {
+        "key": "E",
+        "text": "데이터 로딩에 사용할 창고를 계획할 때 가능한 한 가장 큰 창고부터 시작하세요."
+      },
+      {
+        "key": "F",
+        "text": "스테이징된 데이터를 무작위 경로를 사용하여 큰 폴더로 분할하여 Snowflake가 각 파일을 로드하는 가장 좋은 방법을 결정할 수 있도록 합니다."
+      }
+    ],
+    "correct": [
+      "A",
+      "C",
+      "F"
+    ],
+    "multiSelect": true,
+    "maxSelect": 3,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0087",
+    "category": "데이터 로드/언로드 / 데이터 로드",
+    "question": "Snowpipe를 사용하여 데이터를 로딩할 때 권장되는 파일 크기는 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "100MB 이상, 최대 250MB 크기의 압축 파일"
+      },
+      {
+        "key": "B",
+        "text": "100GB 이상, 최대 250GB 크기의 압축 파일"
+      },
+      {
+        "key": "C",
+        "text": "10MB 이상, 최대 100MB 크기의 압축 파일"
+      },
+      {
+        "key": "D",
+        "text": "1GB 이상, 최대 2GB 크기의 압축 파일"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0088",
+    "category": "데이터 로드/언로드 / 데이터 로드",
+    "question": "한 회사가 Snowflake 마이그레이션의 일환으로 초기 로드를 위해 수 테라바이트 규모의 데이터를 읽어야 하는 경우, CSV 추출 파일의 개수와 크기를 제어할 수 있습니다. Snowflake는 부하 성능을 극대화하기 위해 어떻게 권장합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "자동 수집 Snowpipes를 사용하여 서버리스 모델에서 대용량 파일을 로드합니다."
+      },
+      {
+        "key": "B",
+        "text": "가능한 한 가장 큰 파일을 생성하여 처리해야 할 전체 파일 수를 줄입니다."
+      },
+      {
+        "key": "C",
+        "text": "더 많은 수의 작은 파일을 생성하고 크기가 Small인 가상 창고에서 수집을 처리합니다."
+      },
+      {
+        "key": "D",
+        "text": "BEGIN TRANSACTION 및 COMMIT 명령 내에서 외부 도구를 사용하여 일괄 처리된 행별 삽입을 실행합니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0089",
+    "category": "데이터 로드/언로드 / 데이터 로드",
+    "question": "Snowflake에서 데이터를 가져올 때 공급자는 공유와 함께 어떤 권한을 부여해야 합니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터베이스의 특정 테이블에 대한 사용법. (SELECT)"
+      },
+      {
+        "key": "B",
+        "text": "데이터베이스의 특정 테이블에 대한 사용법. (USAGE)"
+      },
+      {
+        "key": "C",
+        "text": "데이터베이스의 1Mb 특정 테이블을 수정합니다."
+      },
+      {
+        "key": "D",
+        "text": "공유할 테이블이 포함된 데이터베이스 및 스키마에 대한 USAGE"
+      },
+      {
+        "key": "E",
+        "text": "공유할 테이블이 포함된 데이터베이스와 스키마에 대한 OPEBATE입니다."
+      }
+    ],
+    "correct": [
+      "A",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0090",
+    "category": "데이터 로드/언로드 / 데이터 로드",
+    "question": "CREATE PIPE ... AS COPY ... FROM (....) 문에서 지원되는 변환은 무엇입니까? (두 가지를 선택하세요.)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터는 선택적 where 절로 필터링될 수 있습니다."
+      },
+      {
+        "key": "B",
+        "text": "들어오는 데이터를 다른 테이블과 조인할 수 있습니다."
+      },
+      {
+        "key": "C",
+        "text": "열을 다시 정렬할 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "열을 생략할 수 있습니다."
+      },
+      {
+        "key": "E",
+        "text": "행 수준 액세스를 정의할 수 있습니다."
+      }
+    ],
+    "correct": [
+      "C",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0091",
+    "category": "데이터 로드/언로드 / 데이터 로드",
+    "question": "Snowflake 사용자가 스테이지에서 CSV 데이터를 로드할 때, <table>에 복사할 때 어떤 명령 지침을 따라야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "CSV 필드 구분 기호는 쉼표 문자(*,\")여야 합니다."
+      },
+      {
+        "key": "B",
+        "text": "각 행의 열 수는 일관성이 있어야 합니다."
+      },
+      {
+        "key": "C",
+        "text": "스테이지의 데이터 파일은 압축 형식이어야 합니다."
+      },
+      {
+        "key": "D",
+        "text": "데이터 파일에는 대상 테이블과 동일한 수의 열이 있어야 합니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0092",
+    "category": "데이터 로드/언로드 / Snowpipe",
+    "question": "Snowpipe의 로드 기록은 며칠 동안 보관됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1일"
+      },
+      {
+        "key": "B",
+        "text": "7일"
+      },
+      {
+        "key": "C",
+        "text": "14일"
+      },
+      {
+        "key": "D",
+        "text": "64일"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0093",
+    "category": "데이터 로드/언로드 / Snowpipe",
+    "question": "파이프를 일시 중지하거나 다시 시작하려면 파이프 객체에 어떤 Snowflake 권한이 필요합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "OPERATE"
+      },
+      {
+        "key": "B",
+        "text": "READ"
+      },
+      {
+        "key": "C",
+        "text": "SELECT"
+      },
+      {
+        "key": "D",
+        "text": "USAGE"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0094",
+    "category": "데이터 로드/언로드 / Snowpipe",
+    "question": "다음 중 Snowpipe로 실행/호출할 수 있는 것은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "사용자 정의 함수(UDF)"
+      },
+      {
+        "key": "B",
+        "text": "저장 프로시저"
+      },
+      {
+        "key": "C",
+        "text": "단일 copyinto 문"
+      },
+      {
+        "key": "D",
+        "text": "단일 insertinto 문"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0095",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "내부 또는 외부 스테이지에서 로컬 파일 시스템으로 파일을 언로드하는 데 사용되는 명령은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "COPY INTO"
+      },
+      {
+        "key": "B",
+        "text": "GET"
+      },
+      {
+        "key": "C",
+        "text": "PUT"
+      },
+      {
+        "key": "D",
+        "text": "TRANSFER"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0096",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "Snowflake에서 데이터를 내보내거나 언로드하는 데 사용되는 명령은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "PUT @mystage"
+      },
+      {
+        "key": "B",
+        "text": "GET @mystage"
+      },
+      {
+        "key": "C",
+        "text": "COPY INTO @mystage"
+      },
+      {
+        "key": "D",
+        "text": "INSERT @mystage"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0097",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "Stage에 언로드할 때 권장되는 관행이나 접근 방식은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "SINGLE 설정: 더 큰 파일의 경우 = true"
+      },
+      {
+        "key": "B",
+        "text": "Parquet을 사용할 때 OBJECTCONSTRUCT( * )를 사용하세요."
+      },
+      {
+        "key": "C",
+        "text": "CAST 함수 사용을 피하세요"
+      },
+      {
+        "key": "D",
+        "text": "개별 파일 형식을 정의합니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0098",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "어떤 copy INTO 명령이 데이터를 하나의 파일에 출력합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "SINGLE=TRUE"
+      },
+      {
+        "key": "B",
+        "text": "MAXFILENUMBER=1"
+      },
+      {
+        "key": "C",
+        "text": "FILENUMBER=1"
+      },
+      {
+        "key": "D",
+        "text": "MULTIPLE=FAISE"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0099",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "COPY INTO <location>로 관계형 테이블의 행을 단일 변형 열로 변환하고 JSON 파일에 행을 언로드하는 데 사용할 수 있는 함수는 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "FLATTEN"
+      },
+      {
+        "key": "B",
+        "text": "TOOBJECT"
+      },
+      {
+        "key": "C",
+        "text": "OBJECTCONSTRUCT"
+      },
+      {
+        "key": "D",
+        "text": "TOVARIANT"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0100",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "어떤 함수가 관계형 테이블에서 JSON으로 데이터를 언로드합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "TOOBJECT"
+      },
+      {
+        "key": "B",
+        "text": "TOJSON"
+      },
+      {
+        "key": "C",
+        "text": "TOVARIANT"
+      },
+      {
+        "key": "D",
+        "text": "OBJECT CONSTRUCT"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0101",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "Snowflake에서 데이터를 언로드할 때 다음 중 어떤 것을 사용할 수 있나요? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "반구조화된 데이터를 언로드할 때는 STRIPOUTERARRAY 옵션을 사용하는 것이 좋습니다."
+      },
+      {
+        "key": "B",
+        "text": "ENCODING 파일 형식 옵션을 사용하여 기본 UTF-8 인코딩을 변경합니다."
+      },
+      {
+        "key": "C",
+        "text": "OBJECTCONSTRUCT 함수는 관계형 데이터를 반구조화된 데이터로 변환하는 데 사용할 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "SINGLE = TRUE 매개변수를 사용하면 최대 5GB 크기의 단일 파일을 저장 계층으로 내보낼 수 있습니다."
+      },
+      {
+        "key": "E",
+        "text": "PARSEJSON 함수를 사용하여 구조화된 데이터가 VARIANT 데이터 유형으로 언로드되도록 합니다."
+      }
+    ],
+    "correct": [
+      "C",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0102",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "외부 스테이지로 데이터를 언로드할 때 지원되는 최대 파일 크기는 얼마입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1GB"
+      },
+      {
+        "key": "B",
+        "text": "5GB"
+      },
+      {
+        "key": "C",
+        "text": "10GB"
+      },
+      {
+        "key": "D",
+        "text": "16GB"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0103",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "어떤 파일 기능이 사용자나 애플리케이션에 Snowflake 스테이지에서 비정형 데이터를 다운로드할 수 있는 권한을 부여합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "BUILDSCOPEDFILEURL"
+      },
+      {
+        "key": "B",
+        "text": "BUILDSTAGEFILEURL"
+      },
+      {
+        "key": "C",
+        "text": "GETPRESIGNEDURL"
+      },
+      {
+        "key": "D",
+        "text": "GET STAGE LOCATION"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0104",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "구조화되지 않은 데이터에 대한 액세스를 활성화할 때, 스테이징에 대한 권한을 부여하거나 액세스 토큰을 발급하지 않고도 스테이징된 파일에 대한 임시 액세스를 허용하는 URL은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "파일 URL"
+      },
+      {
+        "key": "B",
+        "text": "범위가 지정된 URL"
+      },
+      {
+        "key": "C",
+        "text": "상대 URL"
+      },
+      {
+        "key": "D",
+        "text": "미리 서명된 URL"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0105",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "어떤 함수가 스테이지 이름을 입력으로 사용하여 스테이지의 URL을 반환합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "BUILDSTAGEFILEURL"
+      },
+      {
+        "key": "B",
+        "text": "BUILDSCOPEDFILEURL"
+      },
+      {
+        "key": "C",
+        "text": "GETPRESIGNEDURL"
+      },
+      {
+        "key": "D",
+        "text": "GET STAGE LOCATION"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0106",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "범위가 지정된 URL은 어떻게 만료되나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터 캐시가 지워질 때."
+      },
+      {
+        "key": "B",
+        "text": "지속된 쿼리 결과 기간이 종료되는 경우."
+      },
+      {
+        "key": "C",
+        "text": "인코딩된 URL 액세스는 영구적입니다."
+      },
+      {
+        "key": "D",
+        "text": "시간 길이는 expirationtime 인수에 지정됩니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0107",
+    "category": "데이터 로드/언로드 / 데이터 언로드",
+    "question": "어떤 스테이지 유형을 변경하고 삭제할 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터베이스 단계"
+      },
+      {
+        "key": "B",
+        "text": "외부 스테이지"
+      },
+      {
+        "key": "C",
+        "text": "테이블 스테이지"
+      },
+      {
+        "key": "D",
+        "text": "사용자 단계"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0108",
+    "category": "데이터 공유/교환 / 데이터 공유",
+    "question": "다른 Snowflake 계정과 공유할 수 있는 Snowflake 객체는 무엇입니까? (세 가지를 선택하세요.)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "스키마"
+      },
+      {
+        "key": "B",
+        "text": "역할"
+      },
+      {
+        "key": "C",
+        "text": "보안 뷰"
+      },
+      {
+        "key": "D",
+        "text": "저장 프로시저"
+      },
+      {
+        "key": "E",
+        "text": "테이블"
+      },
+      {
+        "key": "F",
+        "text": "보안 사용자 정의 함수(UDF)"
+      }
+    ],
+    "correct": [
+      "C",
+      "E",
+      "F"
+    ],
+    "multiSelect": true,
+    "maxSelect": 3,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0109",
+    "category": "데이터 공유/교환 / 데이터 공유",
+    "question": "다음 중 안전한 데이터 공유를 통해 공유할 수 있는 객체는 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "마스킹 정책"
+      },
+      {
+        "key": "B",
+        "text": "저장 프로시저"
+      },
+      {
+        "key": "C",
+        "text": "작업"
+      },
+      {
+        "key": "D",
+        "text": "외부 테이블"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0110",
+    "category": "데이터 공유/교환 / 데이터 공유",
+    "question": "어떤 객체를 보안 데이터 공유와 함께 사용할 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "보기"
+      },
+      {
+        "key": "B",
+        "text": "구체화된 뷰"
+      },
+      {
+        "key": "C",
+        "text": "외부 테이블"
+      },
+      {
+        "key": "D",
+        "text": "사용자 정의 함수(UDF)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0111",
+    "category": "데이터 공유/교환 / 데이터 공유",
+    "question": "동일한 클라우드 제공업체 지역에 Snowflake 계정이 두 개 있습니다. 하나는 운영 계정이고 다른 하나는 비운영 계정입니다. 운영 계정에서 비운영 계정으로 데이터를 쉽게 전송하려면 어떻게 해야 하나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "프로덕션 계정의 데이터를 비프로덕션 계정으로 복제합니다."
+      },
+      {
+        "key": "B",
+        "text": "프로덕션 계정에서 비프로덕션 계정으로 데이터 공유를 생성합니다."
+      },
+      {
+        "key": "C",
+        "text": "프로덕션 계정에서 구독을 생성하고 비프로덕션 계정에 게시합니다."
+      },
+      {
+        "key": "D",
+        "text": "프로덕션 계정을 사용하여 독자 계정을 만들고 독자 계정을 비프로덕션 계정에 연결합니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0112",
+    "category": "데이터 공유/교환 / 데이터 공유",
+    "question": "어떤 유형의 역할이 Share에 부여될 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "계정 역할"
+      },
+      {
+        "key": "B",
+        "text": "사용자 정의 역할"
+      },
+      {
+        "key": "C",
+        "text": "데이터베이스 역할"
+      },
+      {
+        "key": "D",
+        "text": "보조 역할"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0113",
+    "category": "데이터 공유/교환 / 데이터 공유",
+    "question": "아래의 문장 템플릿을 고려할 때, 어떤 데이터베이스 객체를 공유에 추가할 수 있습니까?(두 가지 선택) GRANT <privilege> ON <Object> <Object_name> TO SHARE <Share_Name>;",
+    "choices": [
+      {
+        "key": "A",
+        "text": "보안 함수"
+      },
+      {
+        "key": "B",
+        "text": "저장 프로시저"
+      },
+      {
+        "key": "C",
+        "text": "스트림"
+      },
+      {
+        "key": "D",
+        "text": "테이블"
+      },
+      {
+        "key": "E",
+        "text": "작업"
+      }
+    ],
+    "correct": [
+      "A",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0114",
+    "category": "데이터 공유/교환 / 데이터 교환",
+    "question": "Snowflake 사용자에게는 역할에 따라 데이터 교환 목록 생성 권한이 부여되었습니다. 이 사용자는 이제 데이터 교환에서 어떤 작업을 수행할 수 있습니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "목록의 이름을 변경합니다."
+      },
+      {
+        "key": "B",
+        "text": "공급자 프로필을 삭제합니다."
+      },
+      {
+        "key": "C",
+        "text": "목록 속성을 수정합니다."
+      },
+      {
+        "key": "D",
+        "text": "들어오는 목록 액세스 요청을 수정합니다."
+      },
+      {
+        "key": "E",
+        "text": "승인/게시를 위해 목록을 제출합니다."
+      }
+    ],
+    "correct": [
+      "C",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0115",
+    "category": "데이터 공유/교환 / 데이터 마켓플레이스",
+    "question": "원격 지역에 Snowflake 데이터 마켓플레이스 목록을 게시할 때 고려해야 할 사항은 무엇입니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "대상 지역에 Snowflake 계정이 없어도 되며, 각 사용자에 대한 공유가 생성됩니다."
+      },
+      {
+        "key": "B",
+        "text": "목록은 선택한 모든 지역에 자동으로 복제되지만 데이터는 복제되지 않습니다."
+      },
+      {
+        "key": "C",
+        "text": "복제를 위해 계정을 연결하려면 사용자는 최소한 한 계정에서 ORGADMIN 역할을 사용할 수 있어야 합니다."
+      },
+      {
+        "key": "D",
+        "text": "원격 지역의 상장에 첨부된 주식은 조직의 모든 계정에서 볼 수 있습니다."
+      },
+      {
+        "key": "E",
+        "text": "표준 목록의 경우 사용자는 첫 번째 고객이 데이터를 요청할 때까지 기다렸다가 대상 지역에 데이터를 복제할 수 있습니다."
+      }
+    ],
+    "correct": [
+      "B",
+      "C"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0116",
+    "category": "데이터 공유/교환 / 데이터 마켓플레이스",
+    "question": "Snowsight가 대상 계정이 다른 지역에 있는지 자동으로 감지하고 클라우드 간 자동 이행을 활성화하는 시점은 언제인가요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Snowflake Marketplace에서 유료 목록을 사용할 때"
+      },
+      {
+        "key": "B",
+        "text": "Snowflake Marketplace에서 개인 목록을 사용하는 경우"
+      },
+      {
+        "key": "C",
+        "text": "Snowflake Marketplace에서 개인화된 목록을 사용할 때"
+      },
+      {
+        "key": "D",
+        "text": "다른 계정과 직접 공유를 사용하는 경우"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0117",
+    "category": "권한/역할",
+    "question": "Snowflake 계정이 있는 소비자와 데이터를 공유하려면 어떤 유형의 계정을 사용할 수 있나요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "데이터 제공자"
+      },
+      {
+        "key": "B",
+        "text": "데이터 소비자"
+      },
+      {
+        "key": "C",
+        "text": "독자"
+      },
+      {
+        "key": "D",
+        "text": "조직"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0118",
+    "category": "권한/역할",
+    "question": "Snowflake가 독자 계정을 지원하는 방식을 설명하는 것은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "독자 계정은 이를 생성한 공급자 계정의 데이터를 소비하고 이를 자신의 데이터와 결합할 수 있습니다."
+      },
+      {
+        "key": "B",
+        "text": "데이터 공유는 Snowflake 계정 간에만 지원되므로 소비자는 라이선스를 받은 Snowflake 고객이 되어야 합니다."
+      },
+      {
+        "key": "C",
+        "text": "리더 계정의 사용자는 리더 계정과 공유된 데이터를 쿼리하고 DML 작업을 수행할 수 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "SHOW MANAGED ACCOUNTS 명령은 계정에 대해 생성된 모든 독자 계정을 표시합니다."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0119",
+    "category": "권한/역할",
+    "question": "다음 명령 중 독자 계정 내에서 사용할 수 없는 것은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "공유 생성"
+      },
+      {
+        "key": "B",
+        "text": "창고 변경"
+      },
+      {
+        "key": "C",
+        "text": "역할 삭제"
+      },
+      {
+        "key": "D",
+        "text": "스키마 표시"
+      },
+      {
+        "key": "E",
+        "text": "테이블 설명"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0120",
+    "category": "권한/역할",
+    "question": "데이터 제공자가 Snowflake 계정이 없는 소비자와 데이터를 공유하려고 합니다. 제공자는 다음 단계에 따라 소비자를 위한 독자 계정을 생성합니다. 1. \"CONSUMER\"라는 사용자를 생성했습니다. 2. 주식을 보관할 데이터베이스와 데이터를 쿼리할 수 있는 초소형 창고를 생성했습니다. 3. PUBLIC 역할에 다음과 같은 권한이 부여되었습니다. 웨어하우스, 데이터베이스, 스키마에 대한 사용 권한, 공유의 모든 개체에 대한 SELECT 권한 이 구성을 기준으로 리더 계정에 대한 내용은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "독자 계정은 자동으로 Snowflake 표준 버전을 사용하게 됩니다."
+      },
+      {
+        "key": "B",
+        "text": "독자 계정 컴퓨팅은 공급자 계정으로 청구됩니다."
+      },
+      {
+        "key": "C",
+        "text": "독자 계정은 제공자가 공유한 데이터를 복제할 수 있지만, 다시 공유할 수는 없습니다."
+      },
+      {
+        "key": "D",
+        "text": "독자 계정은 CREATE TABLE AS...를 사용하여 공유 데이터의 사본을 만들 수 있습니다."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0121",
+    "category": "권한/역할",
+    "question": "DROP MANAGED ACCOUNT 명령을 실행하면 독자 계정의 개체는 어떻게 됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "객체가 삭제됩니다."
+      },
+      {
+        "key": "B",
+        "text": "객체는 Fail-safe 기간에 들어갑니다."
+      },
+      {
+        "key": "C",
+        "text": "물체가 시간 여행 기간에 들어갑니다."
+      },
+      {
+        "key": "D",
+        "text": "개체는 즉시 공급자 계정으로 이동됩니다."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0122",
+    "category": "권한/역할",
+    "question": "새 계정에 할당된 첫 번째 사용자인 ACCOUNTADMIN은 어떤 관리 권한이 있는 추가 사용자를 최소한 한 명 이상 만들어야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "USERADMIN"
+      },
+      {
+        "key": "B",
+        "text": "PUBLIC"
+      },
+      {
+        "key": "C",
+        "text": "ORGADMIN"
+      },
+      {
+        "key": "D",
+        "text": "SYSADMIN"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0123",
+    "category": "권한/역할",
+    "question": "어떤 system_defined Snowflake 역할이 계정 이름을 바꾸고 원래 URL을 사용하여 이름이 바뀐 계정에 액세스할 수 있는지 여부를 지정할 수 있는 권한이 있습니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "계정 관리자"
+      },
+      {
+        "key": "B",
+        "text": "보안 관리자"
+      },
+      {
+        "key": "C",
+        "text": "시스템 관리자"
+      },
+      {
+        "key": "D",
+        "text": "ORGADMIN"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0124",
+    "category": "권한/역할",
+    "question": "사용자가 계정을 만들고 관리하려면 어떤 Snowflake 역할을 부여해야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "계정 관리자"
+      },
+      {
+        "key": "B",
+        "text": "ORGADMIN"
+      },
+      {
+        "key": "C",
+        "text": "보안 관리자"
+      },
+      {
+        "key": "D",
+        "text": "시스템 관리자"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0125",
+    "category": "권한/역할",
+    "question": "Snowflake 계정에서 다른 사용자를 생성하거나 관리할 수 있는 권한을 가진 권한은 무엇입니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "USAGE"
+      },
+      {
+        "key": "B",
+        "text": "SELECT"
+      },
+      {
+        "key": "C",
+        "text": "MODIFY"
+      },
+      {
+        "key": "D",
+        "text": "OWNERSHIP"
+      },
+      {
+        "key": "E",
+        "text": "CREATE USER"
+      }
+    ],
+    "correct": [
+      "D",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0126",
+    "category": "권한/역할",
+    "question": "마케팅 동료가 mktg__WH라는 중형 가상 창고의 창고 크기를 변경할 수 있는 기능을 요청했습니다.다음 중 어떤 진술이 이 요청을 수용할 수 있을까요?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ALLOW RESIZE ON WAREHOUSE MKTGWH TO USER MKTGLEAD;"
+      },
+      {
+        "key": "B",
+        "text": "GRANT MODIFY ON WAREHOUSE MKTG WH TO ROLE MARKETING;"
+      },
+      {
+        "key": "C",
+        "text": "GRANT MODIFY ON WAREHOUSE MKTGWH TO USER MKTGLEAD;"
+      },
+      {
+        "key": "D",
+        "text": "GRANT OPERATE ON WAREHOUSE MKTG WH TO ROLE MARKETING;"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0127",
+    "category": "권한/역할",
+    "question": "Snowflake는 데이터베이스 객체 소유권과 관련하여 무엇을 권장합니까? (두 가지 선택)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ACCOUNTADMIN으로 객체를 생성하고 소유권을 재할당하지 않습니다."
+      },
+      {
+        "key": "B",
+        "text": "SYSADMIN으로 객체를 생성합니다."
+      },
+      {
+        "key": "C",
+        "text": "나중에 권한 부여를 쉽게 하기 위해 SECURITYADMIN으로 객체를 생성합니다."
+      },
+      {
+        "key": "D",
+        "text": "사용자 정의 역할이 있는 객체를 생성하고 이 역할을 SYSADMIN에게 부여합니다."
+      },
+      {
+        "key": "E",
+        "text": "ACCOUNTADMIN이 소유한 66개 개체에 대해서만 MANAGED ACCESS SCHEMAS를 사용합니다."
+      }
+    ],
+    "correct": [
+      "B",
+      "D"
+    ],
+    "multiSelect": true,
+    "maxSelect": 2,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0128",
+    "category": "보안",
+    "question": "어떤 Snowflake 기능을 사용하면 사용자가 규정 준수, 검색, 보호 및 리소스 사용을 위해 민감한 데이터를 추적할 수 있습니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "태그"
+      },
+      {
+        "key": "B",
+        "text": "주석"
+      },
+      {
+        "key": "C",
+        "text": "내부 토큰화"
+      },
+      {
+        "key": "D",
+        "text": "행 액세스 정책"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0129",
+    "category": "보안",
+    "question": "Snowflake 사용자는 사용자 개체 속성 MINS_TO_BYPASS_NETWORK_POLICY를 구성하여 네트워크 정책을 일시적으로 우회하려고 합니다. 그들은 어떻게 해야 할까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "SECURITYADMIN 역할을 사용하세요."
+      },
+      {
+        "key": "B",
+        "text": "SYSADMIN 역할을 사용하세요."
+      },
+      {
+        "key": "C",
+        "text": "USERADMIN 역할을 사용하세요."
+      },
+      {
+        "key": "D",
+        "text": "Snowflake 지원팀에 문의하세요."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0130",
+    "category": "보안",
+    "question": "어떤 사용자 개체 속성에 대한 값을 설정하려면 Snowflake 지원팀에 문의해야 합니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "비활성화됨"
+      },
+      {
+        "key": "B",
+        "text": "MFA 우회까지 몇 분 남았습니다."
+      },
+      {
+        "key": "C",
+        "text": "네트워크 정책을 우회하는 데 몇 분이 걸립니다."
+      },
+      {
+        "key": "D",
+        "text": "잠금 해제까지 몇 분 남았습니다"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0131",
+    "category": "보안",
+    "question": "Snowsight를 보호하는 데 필요한 프록시 정보를 제공하는 기능은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "시스템 관리자 태그"
+      },
+      {
+        "key": "B",
+        "text": "SYSTEM$GETPRIVATELINK"
+      },
+      {
+        "key": "C",
+        "text": "시스템 목록"
+      },
+      {
+        "key": "D",
+        "text": "시스템 권한 부여"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": true,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0132",
+    "category": "보안",
+    "question": "Snowflake의 마스크 착용 정책은 무엇으로 구성됩니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "하나 이상의 조건과 하나 이상의 마스킹 함수를 포함하는 단일 데이터 유형"
+      },
+      {
+        "key": "B",
+        "text": "단일 데이터 유형, 단 하나의 조건 및 단 하나의 마스킹 함수만 있음"
+      },
+      {
+        "key": "C",
+        "text": "조건이 하나뿐인 여러 데이터 유형과 하나 이상의 마스킹 함수"
+      },
+      {
+        "key": "D",
+        "text": "하나 이상의 조건과 하나 이상의 마스킹 함수를 포함하는 여러 데이터 유형"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0133",
+    "category": "보안",
+    "question": "ALLOW CLIENT_MFA_CACHING 매개변수를 사용할 때 캐시된 다중 요소 인증(MFA) 토큰의 유효 기간은 얼마입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1시간"
+      },
+      {
+        "key": "B",
+        "text": "2시간"
+      },
+      {
+        "key": "C",
+        "text": "4시간"
+      },
+      {
+        "key": "D",
+        "text": "8시간"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0134",
+    "category": "보안",
+    "question": "다음 중 Snowflake에 접속하기 위해 사용자를 인증하는 데 유효한 방법은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "SCIM"
+      },
+      {
+        "key": "B",
+        "text": "Federated authentication"
+      },
+      {
+        "key": "C",
+        "text": "TLS 1.2"
+      },
+      {
+        "key": "D",
+        "text": "Key-pair authentication"
+      },
+      {
+        "key": "E",
+        "text": "OAuth"
+      },
+      {
+        "key": "F",
+        "text": "OCSP authentication"
+      }
+    ],
+    "correct": [
+      "B",
+      "D",
+      "E"
+    ],
+    "multiSelect": true,
+    "maxSelect": 3,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0135",
+    "category": "보안",
+    "question": "Snowflake에서 SSO(Single Sign-On)를 구성하는 데 사용되는 명령은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "세션 정책 생성"
+      },
+      {
+        "key": "B",
+        "text": "네트워크 규칙 생성"
+      },
+      {
+        "key": "C",
+        "text": "CREATE SECURITY INTEGRATION"
+      },
+      {
+        "key": "D",
+        "text": "비밀번호 정책 생성"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  },
+  {
+    "id": "Q0136",
+    "category": "보안",
+    "question": "계정에서 사용할 수 있는 모든 네트워크 정책을 나열하는 데 사용할 수 있는 명령은 무엇입니까?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "DESCRIBE SESSION POLICY"
+      },
+      {
+        "key": "B",
+        "text": "DESCRIBE NETWORK POLICY"
+      },
+      {
+        "key": "C",
+        "text": "SHOW SESSION POLICIES"
+      },
+      {
+        "key": "D",
+        "text": "SHOW NETWORK POLICIES"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "multiSelect": false,
+    "maxSelect": 1,
+    "tags": [],
+    "difficulty": "",
+    "priority": false,
+    "source": "snowflake_pool2.md",
+    "explanation": ""
+  }
+];
