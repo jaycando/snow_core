@@ -577,6 +577,10 @@ const renderStudy = () => {
   const selected = session.selections[question.id] || [];
   const evaluation = session.revealed ? isAnswerCorrect(question, selected) : null;
   const questionText = formatMultiline(question.question);
+  const selectionLabel = question.multiSelect
+    ? `다중 선택 · 최대 ${question.maxSelect}`
+    : "단일 선택";
+  const keyLabel = question.correct.length > 0 ? "정답 키 있음" : "정답 미확정";
 
   container.innerHTML = `
     <div class="panel session-panel">
@@ -586,7 +590,8 @@ const renderStudy = () => {
           <div class="question-title">${questionText}</div>
         </div>
         <div>
-          ${question.correct.length > 0 ? `<span class=\"pill\">정답 키 있음</span>` : `<span class=\"pill\">정답 미확정</span>`}
+          <span class="pill">${keyLabel}</span>
+          <span class="pill">${selectionLabel}</span>
         </div>
       </div>
       <div class="choices" id="study-choices"></div>
@@ -647,6 +652,9 @@ const renderStudy = () => {
     const result = isAnswerCorrect(question, session.selections[question.id] || []);
     if (result === false) {
       updateReview(question.id, false);
+      toast("오답노트에 추가되었습니다.");
+      setView("review");
+      return;
     }
     renderStudy();
   });
@@ -738,6 +746,9 @@ const renderExam = () => {
   const question = session.questions[session.index];
   const selected = session.selections[question.id] || [];
   const questionText = formatMultiline(question.question);
+  const selectionLabel = question.multiSelect
+    ? `다중 선택 · 최대 ${question.maxSelect}`
+    : "단일 선택";
 
   container.innerHTML = `
     <div class="session-panel">
@@ -746,7 +757,10 @@ const renderExam = () => {
           <div class="progress">${session.index + 1} / ${session.questions.length}</div>
           <div class="question-title">${questionText}</div>
         </div>
-        <div class="timer">${formatDuration(session.timeLeftSec)}</div>
+        <div>
+          <div class="timer">${formatDuration(session.timeLeftSec)}</div>
+          <div class="badge">${selectionLabel}</div>
+        </div>
       </div>
       <div class="exam-layout">
         <div class="exam-nav">
